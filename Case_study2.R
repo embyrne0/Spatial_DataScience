@@ -1,15 +1,16 @@
 # Case Study 2
   # Eleanor M. Byrne 
 
-# Dowload the data 
+# 1. Dowload the data 
   # downloaded as csv file 
 
-# Download/install packages 
+# 2. Download/install packages 
 library(tidyverse) 
 
-# Define the csv link
+# 3. Define the csv link
 nasa_url <- "C:/Users/Margo/OneDrive/Documents/Fall 2024 Courses/Spatial Data Science Course/Spatial_DataScience/station.csv"
+  # input the directory/path 
 
-# read the csv file 
+# 4. read the csv file 
 temp_data <- read.csv(nasa_url)
   # use read.csv function 
